@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#84FFFF"
+    tools:context=".vue.HistoryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn5star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 star"
+            android:textColor="#004D40"
+            app:backgroundTint="#FF9E80" />
+
+        <Button
+            android:id="@+id/btn4star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4 star"
+            android:textColor="#004D40"
+            app:backgroundTint="#FF9E80" />
+
+        <Button
+            android:id="@+id/btn3star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3 star"
+            android:textColor="#004D40"
+            app:backgroundTint="#FF9E80" />
+
+        <Button
+            android:id="@+id/btn2star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 star"
+            android:textColor="#004D40"
+            app:backgroundTint="#FF9E80" />
+
+        <Button
+            android:id="@+id/btn1star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 star"
+            android:textColor="#004D40"
+            app:backgroundTint="#FF9E80" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
